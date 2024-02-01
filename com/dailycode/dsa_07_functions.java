@@ -5,16 +5,16 @@ import java.util.*;
 
 public class dsa_07_functions {
     public static int calculateMulti(int a , int b){
-        int sum = a*b;
-        return sum;
+        return a*b;
     }
 
     public static void main(String[]args){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter your numbers: ");
+        System.out.print("Enter your number of a: ");
         int a = sc.nextInt();
+        System.out.print("Enter your number of b: ");
         int b = sc.nextInt();
-        int sum = calculateMulti(a,b);
-        System.out.println(sum);
+
+        System.out.println("The product of 2 numbers: "+ calculateMulti(a,b));
     }
 }
