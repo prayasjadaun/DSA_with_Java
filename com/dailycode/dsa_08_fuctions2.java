@@ -59,13 +59,28 @@ public class dsa_08_fuctions2 {
 
 
     //    Question 4-- Write a function that takes in the radius as input and returns the circumference of a circle.
-    public static double circumfrence(double r){
-        return 2 * Math.PI * r;
+//    public static Double circumfrence(Double r) {
+//        return 2 * Math.PI * r;
+//    }
+//
+//    public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//        System.out.print("Enter radius: ");
+//        Double r = sc.nextDouble();
+//        System.out.println(circumfrence(r));
+
+//    Question 5--Write a function that takes in age as input and returns if that person is eligible to vote or not. A person of age > 18 is eligible to vote.
+    public static boolean isEligible(int age){
+        if(age>18){
+            return true;
+        }
+        return false;
     }
-    public static void main(String[] args) {
+    public static void main(String[]args){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter radius: ");
-        double r = sc.nextInt();
-        System.out.println(circumfrence(r));
+        System.out.println("Enter age: ");
+        int age = sc.nextInt();
+        System.out.println(isEligible(age));
+
     }
 }
