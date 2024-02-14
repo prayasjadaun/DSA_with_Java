@@ -1,6 +1,7 @@
 package com.dailycode;
 
 public class dsa_14_Sorting {
+    // Bubble Sort-----------------------------------------
     /*
      public static void printArr(int[] arr){
          for (int j : arr) {
@@ -24,7 +25,7 @@ public class dsa_14_Sorting {
         printArr(arr);
     }
 
-    //Selection Sort
+    //Selection Sort--------------------------------------------------------------
     public static void printArr(int[] arr){
         for(int i =0; i<arr.length; i++){
             System.out.print(arr[i]+ " ");
@@ -48,7 +49,7 @@ public class dsa_14_Sorting {
     }
         */
 
-    //Insertion Sort
+    //Insertion Sort---------------------------------------
 
     public static void printArr(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
